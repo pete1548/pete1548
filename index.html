@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 부트스트랩 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- SweetAlert2 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+  <title>학급 청소 당번</title>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="container max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-semibold mb-6">학급 청소 당번</h1>
+    <div id="numbers" class="text-2xl font-bold mb-6">
+      <!-- 추첨된 번호가 나타날 자리 -->
+    </div>
+    <button id="generate-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+      학급 청소 당번
+    </button>
+  </div>
+
+  <!-- 부트스트랩 및 SweetAlert2 스크립트 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+  <!-- 로또 번호 추첨기 자바스크립트 -->
+  <script src="script.js"></script>
+</body>
+</html>
